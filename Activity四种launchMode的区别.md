@@ -10,7 +10,7 @@ Activity一共有以下四种launchMode：
 ###1.standard###
 每次跳转系统都会在task中生成一个新的FirstActivity实例，并且放于栈结构的顶部，当我们按下后退键时，才能看到原来的FirstActivity实例。
 这就是standard启动模式，不管有没有已存在的实例，都生成新的实例。
-![](https://i.imgur.com/C6D3UZX.png)
+![](https://raw.githubusercontent.com/xj107359/Readme/master/Picutres/Activity_launchModes/standard.gif)
 
 ###2.singleTop###
 跳转时系统会先在栈结构中寻找是否有一个FirstActivity实例正位于栈顶，如果有则不再生成新的，而是直接使用。
