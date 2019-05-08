@@ -1,4 +1,4 @@
-##Activity四种launchMode的区别##
+## Activity四种launchMode的区别
 
 Activity一共有以下四种launchMode：
 
@@ -7,14 +7,14 @@ Activity一共有以下四种launchMode：
 - singleTask
 - singleInstance
 
-###1.standard###
+### 1.standard
 每次跳转系统都会在task中生成一个新的FirstActivity实例，并且放于栈结构的顶部，当我们按下后退键时，才能看到原来的FirstActivity实例。
 
 ![](https://raw.githubusercontent.com/xj107359/Readme/master/Picutres/Activity_launchModes/standard.gif)
 
 这就是standard启动模式，不管有没有已存在的实例，都生成新的实例。
 
-###2.singleTop###
+### 2.singleTop
 - 跳转时系统会先在栈结构中寻找是否有一个FirstActivity实例正位于**栈顶**，如果有则不再生成新的，而是直接使用。
 
 ![](https://raw.githubusercontent.com/xj107359/Readme/master/Picutres/Activity_launchModes/singleTop1.gif)
@@ -25,7 +25,7 @@ Activity一共有以下四种launchMode：
 
 这就是singleTop启动模式，如果发现有对应的Activity实例正位于栈顶，则重复利用，否则生成新的实例。
 
-###3.singleTask###
+### 3.singleTask
 
 ![](https://raw.githubusercontent.com/xj107359/Readme/master/Picutres/Activity_launchModes/singleTask.gif)
 
@@ -33,7 +33,7 @@ Activity一共有以下四种launchMode：
 
 这就是singleTask模式，如果发现有对应的Activity实例，则使此Activity实例之上的其他Activity实例统统出栈，使此Activity实例成为栈顶对象，显示到幕前。
 
-###4.singleInstance###
+### 4.singleInstance
 
 这种启动模式比较特殊，因为它会启用一个新的栈结构，将Acitvity放置于这个新的栈结构中，并保证不再有其他Activity实例进入。
 我们看到从FirstActivity跳转到SecondActivity时，重新启用了一个新的栈结构，来放置SecondActivity实例，然后按下后退键，再次回到原始栈结构。
