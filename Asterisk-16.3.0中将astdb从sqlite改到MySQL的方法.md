@@ -1,6 +1,5 @@
 # Asterisk-16.3.0中将astdb从sqlite改到MySQL的方法
- 
-- 
+
 ## 目的
 分布式结构下，为了让多台Asterisk共享astdb中的数据，需要将astdb从sqlite改到MySQL，故需修改astdb相关代码。
 
@@ -79,7 +78,7 @@
 | ast_db_get  | 进度  |
 | ast_db_get_allocated  | 进度  |
 | ast_db_gettree  | 进度  |
-| ast_db_gettree_by_prefix  | <font color="red">不修改</font>  |
+| ast_db_gettree_by_prefix  | <font color="red">**不修改**</font>  |
 | ast_db_freetree  | 进度  |
 
 
