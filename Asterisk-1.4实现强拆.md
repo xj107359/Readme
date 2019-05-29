@@ -108,13 +108,13 @@ asterisk-1.4.31/channels/chan_sip.c
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: ExecIf
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:7] Set("SIP/8302-0000001a", "AMPUSER=8302") in new stack
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: Set
-	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:8] Set("SIP/8302-0000001a", "AMPUSERCIDNAME=8302狱警") in new stack
+	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:8] Set("SIP/8302-0000001a", "AMPUSERCIDNAME=8302") in new stack
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: Set
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:9] GotoIf("SIP/8302-0000001a", "0?report") in new stack
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: GotoIf
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:10] Set("SIP/8302-0000001a", "AMPUSERCID=8302") in new stack
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: Set
-	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:11] Set("SIP/8302-0000001a", "CALLERID(all)="8302狱警" <8302>") in new stack
+	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:11] Set("SIP/8302-0000001a", "CALLERID(all)="8302" <8302>") in new stack
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: Set
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:12] ExecIf("SIP/8302-0000001a", "1|Set|CHANNEL(language)=cn") in new stack
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: ExecIf
@@ -126,7 +126,7 @@ asterisk-1.4.31/channels/chan_sip.c
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:15] GotoIf("SIP/8302-0000001a", "1?continue") in new stack
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Goto (macro-user-callerid,s,22)
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: GotoIf
-	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:22] NoOp("SIP/8302-0000001a", "Using CallerID "8302狱警" <8302>") in new stack
+	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-user-callerid:22] NoOp("SIP/8302-0000001a", "Using CallerID "8302" <8302>") in new stack
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: Noop
 	[May 29 14:28:00] DEBUG[32511] app_macro.c: Executed application: Macro
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-exten-vm:2] Set("SIP/8302-0000001a", "RingGroupMethod=none") in new stack
@@ -164,7 +164,7 @@ asterisk-1.4.31/channels/chan_sip.c
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Executing [s@macro-dial:3] AGI("SIP/8302-0000001a", "dialparties.agi") in new stack
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     -- Launched AGI Script /var/lib/asterisk/agi-bin/dialparties.agi
 	[May 29 14:28:00] VERBOSE[32511] logger.c:   dialparties.agi: Starting New Dialparties.agi
-	[May 29 14:28:00] VERBOSE[32511] logger.c:   dialparties.agi: Caller ID name is '8302狱警' number is '8302'
+	[May 29 14:28:00] VERBOSE[32511] logger.c:   dialparties.agi: Caller ID name is '8302' number is '8302'
 	[May 29 14:28:00] VERBOSE[32511] logger.c:   dialparties.agi: Methodology of ring is  'none'
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     --  dialparties.agi: Added extension 8098 to extension map
 	[May 29 14:28:00] VERBOSE[32511] logger.c:     --  dialparties.agi: Extension 8098 cf is disabled
@@ -208,13 +208,13 @@ asterisk-1.4.31/channels/chan_sip.c
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: ExecIf
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:7] Set("SIP/8305-0000001c", "AMPUSER=8305") in new stack
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: Set
-	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:8] Set("SIP/8305-0000001c", "AMPUSERCIDNAME=瑞金座席") in new stack
+	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:8] Set("SIP/8305-0000001c", "AMPUSERCIDNAME=8305") in new stack
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: Set
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:9] GotoIf("SIP/8305-0000001c", "0?report") in new stack
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: GotoIf
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:10] Set("SIP/8305-0000001c", "AMPUSERCID=8305") in new stack
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: Set
-	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:11] Set("SIP/8305-0000001c", "CALLERID(all)="瑞金座席" <8305>") in new stack
+	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:11] Set("SIP/8305-0000001c", "CALLERID(all)="8305" <8305>") in new stack
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: Set
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:12] ExecIf("SIP/8305-0000001c", "1|Set|CHANNEL(language)=cn") in new stack
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: ExecIf
@@ -226,7 +226,7 @@ asterisk-1.4.31/channels/chan_sip.c
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:15] GotoIf("SIP/8305-0000001c", "1?continue") in new stack
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Goto (macro-user-callerid,s,22)
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: GotoIf
-	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:22] NoOp("SIP/8305-0000001c", "Using CallerID "瑞金座席" <8305>") in new stack
+	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [s@macro-user-callerid:22] NoOp("SIP/8305-0000001c", "Using CallerID "8305" <8305>") in new stack
 	[May 29 14:28:15] DEBUG[32547] app_macro.c: Executed application: Noop
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [*5588098@from-internal:2] Answer("SIP/8305-0000001c", "") in new stack
 	[May 29 14:28:15] VERBOSE[32547] logger.c:     -- Executing [*5588098@from-internal:3] Wait("SIP/8305-0000001c", "1") in new stack
