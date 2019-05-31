@@ -4,11 +4,10 @@
 
 	[root@localhost ~]# telnet 127.0.0.1 5038
 
->
-	Trying 127.0.0.1...
-	Connected to 127.0.0.1.
-	Escape character is '^]'.
-	Asterisk Call Manager/5.0.1
+>	Trying 127.0.0.1...
+>	Connected to 127.0.0.1.
+>	Escape character is '^]'.
+>	Asterisk Call Manager/5.0.1
 
 ### 2. Login
 
